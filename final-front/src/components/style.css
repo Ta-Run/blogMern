@@ -1,0 +1,50 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #f1f3f8;
+  height: 100%;
+}
+
+.notfound{
+  display: flex;
+  align-items:center;
+justify-content:center;
+flex-flow: column;
+background-color: grey;
+height: 100vh;
+font-weight: bold;
+color: white;
+}
+
+.card {
+  border: 1px solid black;
+  padding: 4px;
+}
+
+.image{
+  width: 100%;
+  height: 30rem;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+h5{
+line-height: 160%;
+}
+
+.toast{
+  position: absolute;
+  bottom: 10%;
+  right: 45%;
+}
+
+.toast-fail{
+  background-color: red;
+  color: black;
+}
+
+.toast-success{
+  background-color: rgb(59, 240, 68);
+  color: black;
+}
+
