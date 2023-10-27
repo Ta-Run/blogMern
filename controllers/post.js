@@ -20,10 +20,6 @@ exports.post = (req,res) => {
   })
 }
 
-
-
-
-
 exports.getposts = (req,res) => {
   Post.find({},(err,result) => {
     if(err)
